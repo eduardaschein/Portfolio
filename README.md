@@ -25,6 +25,8 @@ This portfolio aims to highlight Python skills and projects developed along my s
 
 ### 3. Project: Clustering with K-Means
  This project aimed to answer questions that would be important for a company that wants to publish new board games, in which its goal would be having a high average rating.
+ 
  Using PCA for feature importance, with a threshold of 0.25, was identified that the most important features for this analysis are: category, family and mechanic. As clustering works only for numerical data, word embedding process was needed to apply K-Means into the “category” in order to reduce the amount of unique values. To tokenize and remove stop words, I used “genism” library instead of NLTK, for being simpler to apply. From the same library, “Word2Vec” was used in order to learn and embed words, creating distance vectors, so then words that are similar in between would have a higher score. 
+ 
  As conclusion, was verified that if a company wants to publish a new board game, it’s more likely to have a higher score when the category is related to war, using mechanics of area control.
 
