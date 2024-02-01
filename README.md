@@ -4,6 +4,7 @@ This portfolio aims to highlight Python skills and projects developed along my s
 ## Table of Contents
 1. Heat Map with Time using Folium
 2. Interactive Dashboard with TKinter
+3. Project: Clustering with K-Means
 
 ### 1. Heat Map with Time using Folium
  The Heat Map with Time is an interactive visualization that shows concentration of data over the time and, different from normal heat maps, this kind does not present relation between variables. It could also be used as an alternative for bar or line charts where it is wanted to express the gradual changes over the time.
@@ -21,3 +22,9 @@ This portfolio aims to highlight Python skills and projects developed along my s
  For this example I used data of book ratings and also data generated from APRIORI algorithm for Market Basket Analysis in order to demonstrate how to create a dashboard with TKinter. This dashboard was based on UX Design to older adults (65+) focusing on the contrast, as it is known that at this age their eyes get 40% less light, changing the vision. Additionally, titles and labels were set with large font size (12 or more) in order to better visualize the numbers.
  
 ![image](https://user-images.githubusercontent.com/102151691/228522824-f391c510-bb35-4487-a2c6-658291296d8e.png)
+
+### 3. Project: Clustering with K-Means
+ This project aimed to answer questions that would be important for a company that wants to publish new board games, in which its goal would be having a high average rating.
+ Using PCA for feature importance, with a threshold of 0.25, was identified that the most important features for this analysis are: category, family and mechanic. As clustering works only for numerical data, word embedding process was needed to apply K-Means into the “category” in order to reduce the amount of unique values. To tokenize and remove stop words, I used “genism” library instead of NLTK, for being simpler to apply. From the same library, “Word2Vec” was used in order to learn and embed words, creating distance vectors, so then words that are similar in between would have a higher score. 
+ As conclusion, was verified that if a company wants to publish a new board game, it’s more likely to have a higher score when the category is related to war, using mechanics of area control.
+
