@@ -1,5 +1,5 @@
 # Portfolio | Python for Data Analysis
-This portfolio aims to highlight Python skills and projects developed along my Data Analyst career.
+This portfolio aims to highlight Python skills and projects developed along my studies of Data Analysis.
 
 ## Table of Contents
 1. Heat Map with Time using Folium
