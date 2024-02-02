@@ -35,7 +35,7 @@ This portfolio aims to highlight Python skills and projects developed along my s
  Application of Recommendation Systems (RS), using content-based and collaborative filtering, for suggestion of books:
  
  1. A search engine was created using content-based system, in which the summary of each book was used. The cosine similarity was calculated on a matrix created by the TfidfVectorizer algorithm, that transformed each summary into a vector. When typing a book that you like on the search engine, it returns ones that you might also like.
-    
+ 
  2.The collaborative filtering item-item RS was created by using the NearestNeighbors algorithm, considering the rating of each book. Only books rated at least 50 times were considered in order to avoid bias.
 
 
